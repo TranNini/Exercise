@@ -20,8 +20,8 @@ public class Dnd {
         fighter.setHitPoints(10);
 
         System.out.println(fighter);
-        System.out.println(Die.rollD6(2));
-
+        System.out.println("3d6 + modifier = " + Die.rollD6(2));
+        System.out.println("3d20 + modifier = " + Die.rollD20(2));
 
     }
 

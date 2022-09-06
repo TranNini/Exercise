@@ -37,4 +37,13 @@ public class Die {
         }
         return resultThrow;
     }
+
+    public static int roll3d20() {
+        int resultThrow = 0;
+        for (int i = 1; i < 4; i++) {
+            resultThrow += rollD20(0);
+        }
+        return resultThrow;
+    }
+
 }
