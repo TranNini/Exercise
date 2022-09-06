@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="DnD Character and Die Rolls">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumexercise/DaysOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumexercise/ExerciseEnum.java" afterDir="false" />
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="Enum Exercise Weeks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayarraylist/ArrayvsArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dnd/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnd/Die.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dnd/Dnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnd/Dnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.ExerciseEnum">
+}]]></component>
+  <component name="RunManager" selected="Application.ArrayvsArrayList">
+    <configuration name="ArrayvsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayarraylist.ArrayvsArrayList" />
+      <module name="Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayarraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dnd" />
       <module name="Exercise" />
@@ -83,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayvsArrayList" />
         <item itemvalue="Application.ExerciseEnum" />
         <item itemvalue="Application.dnd.Dnd" />
         <item itemvalue="Application.Dnd" />
@@ -98,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662016666990</updated>
       <workItem from="1662016668237" duration="10607000" />
-      <workItem from="1662371342774" duration="12588000" />
+      <workItem from="1662371342774" duration="17668000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -128,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662327661180</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Enum Exercise Weeks">
+      <created>1662474163124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662474163124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DnD Character and Die Rolls" />
-    <option name="LAST_COMMIT_MESSAGE" value="DnD Character and Die Rolls" />
+    <MESSAGE value="Enum Exercise Weeks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum Exercise Weeks" />
   </component>
 </project>
