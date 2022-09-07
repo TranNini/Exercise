@@ -6,13 +6,17 @@ public class Wind {
 
     public static void main(String[] args) {
 
+        final int speedMax = 200;
+        final int direction = 360;
         int length = 3;
         int[] windSpeed = new int[length];
         int[] windDirection = new int[length];
 
+
+        //fill value
         for (int i = 0; i < length; i++) {
-            windSpeed[i] += Math.random()*200;
-            windDirection[i] += Math.random()*360;
+            windSpeed[i] += Math.random()*speedMax;
+            windDirection[i] += Math.random()*direction;
         }
         System.out.println(Arrays.toString(windSpeed));
         System.out.println(Arrays.toString(windDirection));
