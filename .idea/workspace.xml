@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="Array vs ArrayList">
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="added set and remove">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayexercise/Wind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maphashmap/Maps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayarraylist/ArrayvsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayarraylist/ArrayvsArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayvsArrayList">
+}</component>
+  <component name="RunManager" selected="Application.Wind">
     <configuration name="ArrayvsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayarraylist.ArrayvsArrayList" />
       <module name="Exercise" />
@@ -57,19 +58,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dnd" />
-      <module name="Exercise" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExerciseEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="enumexercise.ExerciseEnum" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="enumexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maphashmap.Maps" />
+      <module name="Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maphashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayexercise.Wind" />
+      <module name="Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,10 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wind" />
+        <item itemvalue="Application.Maps" />
         <item itemvalue="Application.ArrayvsArrayList" />
         <item itemvalue="Application.ExerciseEnum" />
         <item itemvalue="Application.dnd.Dnd" />
-        <item itemvalue="Application.Dnd" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +129,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662016666990</updated>
       <workItem from="1662016668237" duration="10607000" />
-      <workItem from="1662371342774" duration="20020000" />
+      <workItem from="1662371342774" duration="23589000" />
+      <workItem from="1662537515775" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -152,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662494980564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added set and remove">
+      <created>1662505032046</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662505032046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +202,7 @@
     <MESSAGE value="DnD Character and Die Rolls" />
     <MESSAGE value="Enum Exercise Weeks" />
     <MESSAGE value="Array vs ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array vs ArrayList" />
+    <MESSAGE value="added set and remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="added set and remove" />
   </component>
 </project>
