@@ -3,8 +3,8 @@ package enumexercise;
 public class ExerciseEnum {
     public static void main(String[] args) {
         for (DaysOfTheWeek day : DaysOfTheWeek.values()) {
-           // System.out.printf("%s: %s%n", day, day.getDayInNumber());
-            System.out.println(day.toString() + " " + day.getDayInNumber());
+            System.out.printf("%s: %s%n", day, day.getDayInNumber());
+           // System.out.println(day.toString() + " " + day.getDayInNumber());
         }
 
 //        DaysOfTheWeek day = DaysOfTheWeek.FRIDAY;
@@ -12,5 +12,10 @@ public class ExerciseEnum {
 //            System.out.println("It's finally weekend!");
 //        }
 //        System.out.println(DaysOfTheWeek.MONDAY.dayInNumber);
+
+        for (MonthsOfYear months : MonthsOfYear.values()) {
+            System.out.println(months.toString() + ": " + months.getMonthsInNumber());
+        }
+
     }
 }

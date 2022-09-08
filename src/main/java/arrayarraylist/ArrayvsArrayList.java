@@ -43,3 +43,4 @@ public class ArrayvsArrayList {
         System.out.println("after removal: " + friendsArrayList2);
     }
 }
+

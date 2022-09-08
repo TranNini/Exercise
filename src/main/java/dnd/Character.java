@@ -113,6 +113,8 @@ public class Character {
         return proficencyBonus;
     }
 
+
+    @Override
     public String toString() {
         return "Character{" +
                 "name='" + name + '\'' +

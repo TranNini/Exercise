@@ -15,19 +15,19 @@ public class Wind {
 
         //fill value
         for (int i = 0; i < length; i++) {
-            windSpeed[i] += Math.random()*speedMax;
-            windDirection[i] += Math.random()*direction;
+            windSpeed[i] += Math.random() * speedMax;
+            windDirection[i] += Math.random() * direction;
         }
         System.out.println(Arrays.toString(windSpeed));
         System.out.println(Arrays.toString(windDirection));
 
         for (int i = 0; i < length; i++) {
-        System.out.println("Windspeed " + windSpeed[i] + " km/h and wind direction " + windDirection[i] + " Grad.");
+            System.out.println("Windspeed " + windSpeed[i] + " km/h and wind direction " + windDirection[i] + " Grad.");
 
         }
 
-        for (int i = 0; i < length ; i++) {
-        System.out.printf("Windspeed %d km/h and wind direction %d\n", windSpeed[i], windDirection[i]);
+        for (int i = 0; i < length; i++) {
+            System.out.printf("Windspeed %d km/h and wind direction %d\n", windSpeed[i], windDirection[i]);
         }
     }
 }
