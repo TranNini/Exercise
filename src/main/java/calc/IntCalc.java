@@ -1,8 +1,10 @@
+package calc;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class SimpleExercise {
+public class IntCalc {
     public static void main(String[] args) throws IOException {
         final BufferedReader terminalSource = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(terminalSource.readLine());
@@ -15,6 +17,9 @@ public class SimpleExercise {
         System.out.println("divide: " + divide(a,b));
         System.out.println("calc: " + calc(a,b,operator));
         System.out.println("power: " + power(a,b));
+
+
+
     }
 
     public static int sum(int number1, int number2) {

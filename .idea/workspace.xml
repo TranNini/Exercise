@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="WindSpeed and WindDriection Array with for each loop">
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/calc/DoubleCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayexercise/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayexercise/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Wind">
-    <configuration name="ArrayvsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayarraylist.ArrayvsArrayList" />
+  <component name="RunManager" selected="Application.DoubleCalc">
+    <configuration name="DoubleCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calc.DoubleCalc" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayarraylist.*" />
+          <option name="PATTERN" value="calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,6 +67,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calc.IntCalc" />
+      <module name="Exercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dnd.Dnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dnd.Dnd" />
-      <module name="Exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dnd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Wind" />
+        <item itemvalue="Application.DoubleCalc" />
+        <item itemvalue="Application.IntCalc" />
         <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.ArrayvsArrayList" />
+        <item itemvalue="Application.Wind" />
         <item itemvalue="Application.ExerciseEnum" />
-        <item itemvalue="Application.dnd.Dnd" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +124,9 @@
       <updated>1662016666990</updated>
       <workItem from="1662016668237" duration="10607000" />
       <workItem from="1662371342774" duration="23589000" />
-      <workItem from="1662537515775" duration="4247000" />
+      <workItem from="1662537515775" duration="12123000" />
+      <workItem from="1662654509352" duration="7031000" />
+      <workItem from="1662736704578" duration="5089000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -187,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662544846487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="assigned speedMax and direction">
+      <created>1662545793168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662545793168</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise">
+      <created>1662664180281</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662664180281</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +221,8 @@
     <MESSAGE value="Array vs ArrayList" />
     <MESSAGE value="added set and remove" />
     <MESSAGE value="WindSpeed and WindDriection Array with for each loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="WindSpeed and WindDriection Array with for each loop" />
+    <MESSAGE value="assigned speedMax and direction" />
+    <MESSAGE value="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise" />
   </component>
 </project>
