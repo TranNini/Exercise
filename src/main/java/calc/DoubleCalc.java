@@ -32,8 +32,8 @@ public class DoubleCalc {
     }
 
     public static double divide(double number1, double number2) {
-        if (0 == number1 || 0 == number2) {
-            System.out.println("0 is not defined");
+        if (number2 == 0) {
+            System.out.println("division by 0 is not defined");
             return 0;
         } else {
             return number1 / number2;

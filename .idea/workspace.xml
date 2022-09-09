@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calc/DoubleCalc.java" afterDir="false" />
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="Refactor SimpleExercise to IntCalc&#10;Created  DoubleCalc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calc/DoubleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calc/DoubleCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,7 @@
       <workItem from="1662371342774" duration="23589000" />
       <workItem from="1662537515775" duration="12123000" />
       <workItem from="1662654509352" duration="7031000" />
-      <workItem from="1662736704578" duration="5089000" />
+      <workItem from="1662736704578" duration="5673000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662664180281</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor SimpleExercise to IntCalc&#10;Created  DoubleCalc">
+      <created>1662742462155</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662742462155</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +229,7 @@
     <MESSAGE value="WindSpeed and WindDriection Array with for each loop" />
     <MESSAGE value="assigned speedMax and direction" />
     <MESSAGE value="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="added diceAmount in DieUtil,&#10;created Enum,&#10;started SimpleExercise" />
+    <MESSAGE value="Refactor SimpleExercise to IntCalc&#10;Created  DoubleCalc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor SimpleExercise to IntCalc&#10;Created  DoubleCalc" />
   </component>
 </project>
