@@ -16,6 +16,15 @@ public class Wind {
         //fill value
         for (int i = 0; i < length; i++) {
             windSpeed[i] += Math.random() * speedMax;
+            /*
+                += operator does not do this:
+                    windSpeed[i] = windSpeed[i] + Math.random() * speedMax;
+                but this:
+                    windSpeed[i] = (int) (windSpeed[i] + Math.random() * speedMax);
+                (it casts the result to the same data type as the variable the value is written to)
+                int a += x;      ->  int a = (int) (a + x);
+                double b += x;   ->  double b = (double) (b + x);
+             */
             windDirection[i] += Math.random() * direction;
         }
         System.out.println(Arrays.toString(windSpeed));

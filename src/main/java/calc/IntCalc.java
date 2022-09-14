@@ -17,9 +17,6 @@ public class IntCalc {
         System.out.println("divide: " + divide(a,b));
         System.out.println("calc: " + calc(a,b,operator));
         System.out.println("power: " + power(a,b));
-
-
-
     }
 
     public static int sum(int number1, int number2) {
@@ -34,8 +31,18 @@ public class IntCalc {
         return number1 * number2;
     }
 
-    public static int divide(int number1, int number2) {
-        return number1/number2;
+//    public static int divide(int number1, int number2) {
+//        return number1/number2;
+//    }
+
+    public static int divide ( int number1, int number2){
+        try {
+            return number1 / number2;
+        }
+        catch (ArithmeticException ae) {
+            System.out.println("invalid");
+            return 0;
+        }
     }
 
     public static int calc(int number1, int number2, String operator) {
