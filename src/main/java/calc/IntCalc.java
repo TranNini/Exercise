@@ -14,7 +14,14 @@ public class IntCalc {
         System.out.println("sum: " + sum(a, b));
         System.out.println("dif: " + dif(a,b));
         System.out.println("multiply: " + multiply(a,b));
-        System.out.println("divide: " + divide(a,b));
+
+        try {
+            System.out.println("divide: " + divide(a,b));
+        }
+        catch (ArithmeticException ae) {
+            System.out.println("invalid");
+        }
+
         System.out.println("calc: " + calc(a,b,operator));
         System.out.println("power: " + power(a,b));
     }
@@ -31,19 +38,19 @@ public class IntCalc {
         return number1 * number2;
     }
 
-//    public static int divide(int number1, int number2) {
-//        return number1/number2;
-//    }
-
-    public static int divide ( int number1, int number2){
-        try {
-            return number1 / number2;
-        }
-        catch (ArithmeticException ae) {
-            System.out.println("invalid");
-            return 0;
-        }
+    public static int divide(int number1, int number2) {
+        return number1/number2;
     }
+
+//    public static int divide ( int number1, int number2){
+//        try {
+//            return number1 / number2;
+//        }
+//        catch (ArithmeticException ae) {
+//            System.out.println("invalid");
+//            return 0;
+//        }
+//    }
 
     public static int calc(int number1, int number2, String operator) {
         if (operator.equals("+")) {                             //== only works for primitive types
