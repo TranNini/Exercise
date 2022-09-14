@@ -3,27 +3,45 @@ package calc;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.ParseException;
 
 public class IntCalc {
+
     public static void main(String[] args) throws IOException {
         final BufferedReader terminalSource = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(terminalSource.readLine());
-        int b = Integer.parseInt(terminalSource.readLine());
+        int a = 0;
+        int b = 0;
+        boolean validInput = false;
+
+        while (!validInput) {
+            try {
+                a = Integer.parseInt(terminalSource.readLine());
+                b = Integer.parseInt(terminalSource.readLine());
+                validInput = true;
+            } catch (NumberFormatException nfe) {
+                System.out.println("not possible");
+            }
+        }
+
         String operator = terminalSource.readLine();
 
         System.out.println("sum: " + sum(a, b));
-        System.out.println("dif: " + dif(a,b));
-        System.out.println("multiply: " + multiply(a,b));
+        System.out.println("dif: " + dif(a, b));
+        System.out.println("multiply: " + multiply(a, b));
 
         try {
-            System.out.println("divide: " + divide(a,b));
-        }
-        catch (ArithmeticException ae) {
+            System.out.println("divide: " + divide(a, b));
+        } catch (ArithmeticException ae) {
             System.out.println("invalid");
         }
 
-        System.out.println("calc: " + calc(a,b,operator));
-        System.out.println("power: " + power(a,b));
+        try {
+            System.out.println("calc: " + calc(a, b, operator));
+        } catch (ArithmeticException ae) {
+            System.out.println("Divided by 0 not allowed");
+        }
+
+            System.out.println("power: " + power(a, b));
     }
 
     public static int sum(int number1, int number2) {
@@ -39,7 +57,7 @@ public class IntCalc {
     }
 
     public static int divide(int number1, int number2) {
-        return number1/number2;
+        return number1 / number2;
     }
 
 //    public static int divide ( int number1, int number2){
