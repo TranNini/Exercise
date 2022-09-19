@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="try catch at divide in main">
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="try catch for calc method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" afterDir="false" />
     </list>
@@ -128,7 +128,8 @@
       <workItem from="1662736704578" duration="6888000" />
       <workItem from="1662757192499" duration="3773000" />
       <workItem from="1662851726418" duration="966000" />
-      <workItem from="1663140193611" duration="14847000" />
+      <workItem from="1663140193611" duration="16640000" />
+      <workItem from="1663283224120" duration="7004000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663147510176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="try catch for calc method">
+      <created>1663182770568</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663182770568</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +273,7 @@
     <MESSAGE value="power method" />
     <MESSAGE value="try catch at divide method" />
     <MESSAGE value="try catch at divide in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="try catch at divide in main" />
+    <MESSAGE value="try catch for calc method" />
+    <option name="LAST_COMMIT_MESSAGE" value="try catch for calc method" />
   </component>
 </project>

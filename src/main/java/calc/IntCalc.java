@@ -3,27 +3,31 @@ package calc;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.ParseException;
 
 public class IntCalc {
+    final static BufferedReader terminalSource = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        final BufferedReader terminalSource = new BufferedReader(new InputStreamReader(System.in));
         int a = 0;
         int b = 0;
         boolean validInput = false;
 
         while (!validInput) {
             try {
-                a = Integer.parseInt(terminalSource.readLine());
-                b = Integer.parseInt(terminalSource.readLine());
+                a = tryParse(terminalSource.readLine());
+                b = tryParse(terminalSource.readLine());
                 validInput = true;
             } catch (NumberFormatException nfe) {
                 System.out.println("not possible");
             }
         }
 
-        String operator = terminalSource.readLine();
+        String operator = null;
+        try {
+            operator = terminalSource.readLine();
+        } catch (IOException e) {
+            System.out.println("Can't read console!");
+        }
 
         System.out.println("sum: " + sum(a, b));
         System.out.println("dif: " + dif(a, b));
@@ -41,8 +45,13 @@ public class IntCalc {
             System.out.println("Divided by 0 not allowed");
         }
 
-            System.out.println("power: " + power(a, b));
+        System.out.println("power: " + power(a, b));
     }
+
+    public static int tryParse(String input) {
+        return Integer.parseInt(input);
+    }
+
 
     public static int sum(int number1, int number2) {
         return number1 + number2;
