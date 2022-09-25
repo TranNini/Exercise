@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="try catch for calc method">
+    <list default="true" id="7263515e-a25c-46ec-a0ae-f02682367583" name="Changes" comment="tryParse method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnd/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnd/RollOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calc/IntCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dnd/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnd/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dnd/DieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnd/DieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dnd/Dnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnd/Dnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,13 +48,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IntCalc">
-    <configuration name="DoubleCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calc.DoubleCalc" />
+  <component name="RunManager" selected="Application.Snake">
+    <configuration name="Dnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dnd.Dnd" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calc.*" />
+          <option name="PATTERN" value="dnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumexercise.ExerciseEnum" />
+    <configuration name="DoubleCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calc.DoubleCalc" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumexercise.*" />
+          <option name="PATTERN" value="calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayexercise.Wind" />
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="games.Snake" />
       <module name="Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayexercise.*" />
+          <option name="PATTERN" value="games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Snake" />
+        <item itemvalue="Application.Dnd" />
         <item itemvalue="Application.IntCalc" />
         <item itemvalue="Application.DoubleCalc" />
         <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.Wind" />
-        <item itemvalue="Application.ExerciseEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +134,9 @@
       <workItem from="1662757192499" duration="3773000" />
       <workItem from="1662851726418" duration="966000" />
       <workItem from="1663140193611" duration="16640000" />
-      <workItem from="1663283224120" duration="7004000" />
+      <workItem from="1663283224120" duration="17707000" />
+      <workItem from="1663920003834" duration="627000" />
+      <workItem from="1664140170144" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary="DnD Character and Die Rolls">
       <created>1662327409614</created>
@@ -243,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663182770568</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tryParse method">
+      <created>1663583094199</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663583094199</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +288,7 @@
     <MESSAGE value="try catch at divide method" />
     <MESSAGE value="try catch at divide in main" />
     <MESSAGE value="try catch for calc method" />
-    <option name="LAST_COMMIT_MESSAGE" value="try catch for calc method" />
+    <MESSAGE value="tryParse method" />
+    <option name="LAST_COMMIT_MESSAGE" value="tryParse method" />
   </component>
 </project>

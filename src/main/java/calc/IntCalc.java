@@ -40,7 +40,7 @@ public class IntCalc {
         }
 
         try {
-            System.out.println("calc: " + calc(a, b, operator));
+            System.out.println("calc: " + calc(a, b, operator) + "\n");
         } catch (ArithmeticException ae) {
             System.out.println("Divided by 0 not allowed");
         }

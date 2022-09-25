@@ -116,7 +116,7 @@ public class Character {
 
     @Override
     public String toString() {
-        return "Character{" +
+        return "{" +
                 "name='" + name + '\'' +
                 ", race='" + race + '\'' +
                 ", strength=" + strength +
